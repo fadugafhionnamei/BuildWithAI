@@ -1,0 +1,133 @@
+{
+  "name": "elitech-nexus",
+  "fullName": "Elitech Nexus - Organizational Hub",
+  "version": "1.0.0",
+  "description": "Secure, offline-first scheduling and organizational workspace for the Elitech Society at PhilSCA",
+  "author": "Elitech Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadugafhionnamei/BuildWithAI.git"
+  },
+  "keywords": [
+    "elitech",
+    "philsca",
+    "organization",
+    "event-management",
+    "attendance-tracking",
+    "scheduling"
+  ],
+  "technologies": {
+    "frontend": {
+      "languages": ["HTML5", "JavaScript (Vanilla)", "CSS3"],
+      "frameworks": ["Tailwind CSS"],
+      "features": ["SPA Router", "Local Storage", "API Client"]
+    },
+    "backend": {
+      "language": "JavaScript (Node.js)",
+      "runtime": "Node.js v16+",
+      "framework": "Express.js",
+      "authentication": "JWT",
+      "hashing": "bcryptjs"
+    },
+    "database": {
+      "system": "MySQL 8.0+",
+      "features": ["Relational Schema", "Transactions", "Foreign Keys"]
+    },
+    "tools": ["npm", "nodemon", "curl", "git"]
+  },
+  "projectStructure": {
+    "frontend": [
+      "index.html - Main entry point",
+      "assets/css/styles.css - Tailwind + custom styling",
+      "assets/js/main.js - SPA router and core logic",
+      "assets/js/apiService.js - API client utilities",
+      "assets/js/validators.js - Form validation utilities",
+      "assets/images/ - Static assets"
+    ],
+    "backend": [
+      "server.js - Express app entry point",
+      "package.json - Dependencies",
+      ".env - Environment configuration",
+      "config/database.js - MySQL connection",
+      "middleware/auth.js - JWT authentication",
+      "models/User.js, Event.js, Attendance.js - Data models",
+      "controllers/ - Business logic",
+      "routes/ - API endpoints"
+    ],
+    "database": [
+      "schema.sql - MySQL schema and sample data"
+    ],
+    "documentation": [
+      "README.md - Project overview and setup",
+      "SETUP_GUIDE.md - Detailed installation",
+      "DEPLOYMENT.md - Production deployment",
+      "CONTRIBUTING.md - Contribution guidelines",
+      "CHANGELOG.md - Version history"
+    ]
+  },
+  "features": {
+    "completed": [
+      "User registration and authentication",
+      "Event CRUD operations",
+      "Attendance logging and tracking",
+      "Dashboard with analytics",
+      "User profile management",
+      "Responsive UI design",
+      "RESTful API architecture",
+      "JWT token authentication",
+      "Password hashing with bcryptjs",
+      "CORS protection",
+      "Input validation"
+    ],
+    "planned": [
+      "Email notifications",
+      "Event reminders",
+      "Admin panel",
+      "Advanced reporting",
+      "Real-time notifications",
+      "Two-factor authentication",
+      "Mobile app integration",
+      "Multi-language support",
+      "Dark mode",
+      "Offline functionality"
+    ]
+  },
+  "apiEndpoints": {
+    "auth": [
+      "POST /api/auth/register",
+      "POST /api/auth/login"
+    ],
+    "events": [
+      "GET /api/events",
+      "GET /api/events/upcoming",
+      "GET /api/events/:id",
+      "POST /api/events",
+      "PUT /api/events/:id",
+      "DELETE /api/events/:id"
+    ],
+    "attendance": [
+      "POST /api/attendance/log",
+      "GET /api/attendance/user/:userId",
+      "GET /api/attendance/event/:eventId"
+    ],
+    "users": [
+      "GET /api/users/me",
+      "GET /api/users"
+    ]
+  },
+  "defaultCredentials": {
+    "email": "admin@elitech.ph",
+    "password": "admin123"
+  },
+  "localServer": {
+    "frontend": "http://localhost:5500",
+    "backend": "http://localhost:3000",
+    "database": "localhost:3306"
+  },
+  "quotes": [
+    "Built for the Elitech Society at Philippine State College of Aeronautics (PhilSCA)",
+    "Empowering students through technology and organization",
+    "Your centralized hub for event management and organizational success"
+  ]
+}
