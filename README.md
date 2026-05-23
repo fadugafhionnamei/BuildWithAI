@@ -1,4 +1,4 @@
-# ✈️ Elitech Nexus - Your NAAP-PhilSCA Collaboration Hub
+# Elitech Nexus - Your NAAP-PhilSCA Collaboration Hub
 
 Elitech Nexus is a secure, offline-first scheduling and organizational workspace explicitly designed for the **Elitech Society** at the **Philippine State College of Aeronautics (PhilSCA)**. 
 
