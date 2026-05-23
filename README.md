@@ -10,7 +10,7 @@ Elitech Nexus is a secure, offline-first scheduling and organizational workspace
 Key Features
 1. Event Tracker & Calendar: A centralized, interactive dashboard to view upcoming organizational deadlines, tech seminars, and chapter meetings.
 2. Local Authentication: A secure, locally hashed login and registration system safeguarding member profiles.
-3. **Attendance Logging & Reminders:** Mechanisms for members to definitively log their presence at specific events and view automated alerts for upcoming mandatory workshops.
+3. **Attendance Logging & Reminders:** Mechanisms for officer to definitively log the presence of the student at specific events and view automated alerts for upcoming mandatory workshops.
 
 
  Getting Started (Local Installation Guide)
